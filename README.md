@@ -26,7 +26,7 @@ Si tienes preguntas o quieres saber más sobre alguno de mis trabajos, no dudes 
 Este archivo detalla que todas las obras creativas presentes en este repositorio, incluyendo juegos, gráficos, música y cualquier otro contenido artístico, están protegidos por derechos de autor.
 
 - **Título**: El Microbusero 2
-- **Autor**: Herctor Muñoz(Arte), Jesús R. Fonseca(Guión)
+- **Autor**: Hector Muñoz(Arte), Jesús R. Fonseca(Guión)
 - **Fecha de publicación**: [12-mar-2022]
 
 Cualquier uso no autorizado de estas obras está prohibido sin el consentimiento explícito del autor.
