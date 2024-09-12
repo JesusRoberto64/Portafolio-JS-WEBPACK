@@ -1,1 +1,9 @@
 This a transpilation from /scr directory, using webpack.
+The rutes got to be realative to he hosting site.
+in this case github
+ex.
+main.js *in scr dir*
+../views/hero.html
+V
+to *deploy dist dir*
+./views/hero.html
