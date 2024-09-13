@@ -111,6 +111,10 @@ a{
     width: 100%;
 }
 
+.imageIn:hover img{
+    opacity: 0.3;
+}
+
 /*icon play*/
 .imageIn::after{
     content: url('../images/playIcon.png');
@@ -123,10 +127,6 @@ a{
 
 .imageIn:hover::after{
     opacity: 1.0;
-}
-
-.imageIn:hover img{
-    opacity: 0.3;
 }
 
 .image2x1{
