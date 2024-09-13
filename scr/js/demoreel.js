@@ -19,7 +19,7 @@ export function demoReel(){
         div.appendChild(a);
 
         let img = document.createElement('img');
-        img.src = `./assets/images/narrativo${i}.png`;
+        img.src = `../assets/images/narrativo${i}.png`;
         
         a.appendChild(img);
     }
