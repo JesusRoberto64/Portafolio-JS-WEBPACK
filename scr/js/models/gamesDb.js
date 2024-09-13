@@ -10,14 +10,14 @@ const games = [
         titulo: "Sentaitir Defender",
         texto: "Ramiro es un oficinista que intenta sobrevivir, pero su vida cambiara en un santiamén.",
         url: "https://sconin.itch.io/sentaitir-defender",
-        img: "https://jesusroberto64.github.io/Portafolio-JS-WEBPACK/assets/images/sentaitir.png",
+        img: "/Portafolio-JS-WEBPACK/assets/images/sentaitir.png",
         id: "sentaitir"
     },
     {
         titulo: "Plank Asteros",
         texto: "WIP tomas el control de un Plankton en un mundo deslizante.",
         url: "https://sconin.itch.io/plank-asteros",
-        img: "https://jesusroberto64.github.io/Portafolio-JS-WEBPACK/assets/images/plnkasteros.png",
+        img: "/Portafolio-JS-WEBPACK/assets/images/plnkasteros.png",
         id: "plank"
     }
 
