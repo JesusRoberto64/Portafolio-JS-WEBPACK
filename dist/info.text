@@ -7,3 +7,7 @@ main.js *in scr dir*
 V
 to *deploy dist dir*
 ./views/hero.html
+
+When getting the route to an assete
+from ../assets/img.png
+to /assets/img.png
