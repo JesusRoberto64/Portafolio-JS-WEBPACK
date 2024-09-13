@@ -11,3 +11,5 @@ to *deploy dist dir*
 When getting the route to an assete
 from ../assets/img.png
 to /assets/img.png
+
+change
