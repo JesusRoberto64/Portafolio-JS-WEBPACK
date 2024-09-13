@@ -3,7 +3,7 @@ const games = [
         titulo: "Protector",
         texto: "Protégete mientras proteges a los demás. Protector un juego arcade inspirado en los juegos LCD de antaño.",
         url: "https://sconin.itch.io/protector",
-        img: "https://jesusroberto64.github.io/Portafolio-JS-WEBPACK/assets/images/PROTECTOR_GAMEPLAY_SCREEN.png",
+        img: "/Portafolio-JS-WEBPACK/assets/images/PROTECTOR_GAMEPLAY_SCREEN.png",
         id: "protector"
     },
     {
