@@ -114,6 +114,20 @@ a{
     opacity: 0.3;
 }
 
+/*icon play*/
+.imageIn::after{
+    content: url('../images/playIcon.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    opacity: 0.6;
+}
+
+.imageIn:hover::after{
+    opacity: 1.0;
+}
+
 .image2x1{
     display: grid;
     grid-column: 1fr 1fr;
