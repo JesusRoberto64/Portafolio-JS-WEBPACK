@@ -25,7 +25,7 @@ loadHtml('./views/hero.html', 'hero')
     })
     .then( () => loadHtml('./views/audiovisual.html', 'audioVisual'))
     .then( () => {
-        workHeader("workHeader1", "Narrativo Audiovisual", "Mi enfoque combina medios digitales con un estilo influido por el “underground”. Aunque trabajo con herramientas modernas, la narración siempre es el corazón de mis proyectos. A través de ilustraciones hechas a mano, busco expresar historias de manera genuina, dejando que la técnica siga la expresión en lugar de dictarla.");
+        workHeader("workHeader1", "Narrativo Audiovisual", "A través de ilustraciones hechas a mano, busco expresar historias de manera genuina, dejando que la técnica siga la expresión en lugar de dictarla.");
         demoReel();
         card("card1", "./assets/images/microbusero2.png", "El Microbusero 2", "", "https://www.webtoons.com/es/canvas/el-microbusero-2/la-revelaci%C3%B3n/viewer?title_no=742802&episode_no=1", "Webtoon ->");
     })
@@ -50,8 +50,9 @@ loadHtml('./views/hero.html', 'hero')
     .then( ()=> loadHtml('./views/acercademi.html', 'acercaDeMi'))
     .then( ()=> loadHtml('./views/contacto.html', 'contacto'))
     .then( ()=>{
-        contactNumber("contactNumber1",1,"mailto: gamerslive20@gmail.com", "gamerslive20@gmail.com");
+        contactNumber("contactNumber1",1,"mailto: robertofonseca@sconin.com", "robertofonseca@sconin.com");
         contactNumber("contactNumber2",2,"https://www.youtube.com/@chuyFonseca64", "YouTube");
+        contactNumber("contactNumber3",3,"https://github.com/JesusRoberto64", "GitHub");
     })
     .then( ()=> loadHtml('./views/customFooter.html', "customFooter"))
     .then( ()=> {
