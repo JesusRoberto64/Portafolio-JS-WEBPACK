@@ -37,11 +37,13 @@ module.exports = {
     ],
     devServer: {
         static:{
-            directory: path.join(__dirname, 'dist'),
+            directory: path.resolve(__dirname, 'dist'),
+            publicPath: '/Portafolio-JS-WEBPACK/',
         },
-        compress: true,
         port: 9000,
-        historyApiFallback: true,
+        historyApiFallback: {
+            index: '/Portafolio-JS-WEBPACK/index.html'
+        },
     },
     mode: 'development', //production mode y dev mode
 };

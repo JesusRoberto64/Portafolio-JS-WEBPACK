@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start:src": "live-server scr",
     "start:dist": "webpack serve",
+    "dev": "live-server --port=6060 --open=/Portafolio-JS-WEBPACK/ --mount=/Portafolio-JS-WEBPACK:./scr",
     "serve": "live-server --port=9000 --open=/Portafolio-JS-WEBPACK/ --mount=/Portafolio-JS-WEBPACK:./dist"
   },
   "keywords": [],
