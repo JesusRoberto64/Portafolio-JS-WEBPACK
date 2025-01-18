@@ -1,11 +1,13 @@
 const path = require('path');
 const CopyWebPackPlugin = require('copy-webpack-plugin');
+const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './scr/js/main.js', // Punto de entrada 
     output: {
         filename: 'bundle.js', //Archivo de salida
         path: path.resolve(__dirname, 'dist/js'), //Directorio de salida
+        publicPath: '/Portafolio-JS-WEBPACK/', ///Portafolio-JS-WEBPACK/
     },
     module: {
        rules: [
@@ -25,7 +27,21 @@ module.exports = {
                 {from: 'scr/assets/css', to: '../assets/css'},
                 {from: 'scr/assets/images', to: '../assets/images'},
             ]
-        })
+        }),
+        /*
+        new HtmlWebPackPlugin({
+            template: './scr/index.html',
+            publicPath: '../'
+        }),
+        */
     ],
+    devServer: {
+        static:{
+            directory: path.join(__dirname, 'dist'),
+        },
+        compress: true,
+        port: 9000,
+        historyApiFallback: true,
+    },
     mode: 'development', //production mode y dev mode
 };
